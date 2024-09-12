@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&display=swap');
+
+body {
+    background-color: #f1f3f4;
+    color: #202124;
+    font-family: 'Google Sans', Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#abc {
+    background-color: #e8eaed;
+    color: #1a73e8;
+    font-size: 2.5rem;
+    font-weight: 500;
+    padding: 1.5rem 3rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 3rem;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.form {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    width: 300px;
+}
+
+.username, .form div {
+    margin-bottom: 1.5rem;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #dadce0;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-family: 'Google Sans', Arial, sans-serif;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus, input[type="password"]:focus {
+    border-color: #1a73e8;
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(26, 115, 232, 0.2);
+}
+
+button {
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: 'Google Sans', Arial, sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #1765cc;
+}
+
+.gdsc {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.img {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
